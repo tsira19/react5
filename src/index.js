@@ -9,9 +9,9 @@ class App extends React.Component {
         };
     }
     increment = () => {
-        const name= 'Tsira';
-    this.setState({ name: name});
-    alert('Name: ' + name);
+        const saxeli = 'Tsira';
+    this.setState({ name: saxeli });
+    alert('Name: ' + this.state.name);
       };
     render() {
         return (
